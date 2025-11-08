@@ -4,16 +4,17 @@ int main()
 {
 	int divident;
 	int divisor;
-	int reminder;
-	int qustient;
+	int remainder;
+	int quotient;
 	
 	cout << "Enter Divident: "; cin >> divident;
 	cout << "Enter Divisor: "; cin >> divisor;
-	reminder = divident % divisor;
-	qustient = divident / divisor;
+	remainder = divident % divisor;
+	quotient = divident / divisor;
 	
-	cout << "Qustient: " << qustient << endl
-		 << "Reminder: " << reminder;
+	cout << "Quotient: " << quotient << endl
+		 << "Remainder: " << remainder;
 	
 	return 0;
+
 }
